@@ -35,9 +35,9 @@ Druckbares Experimentiermaterial mit STL-Dateien, Stücklisten und Aufbauanleitu
 
 {% include section.html %}
 
-## {% include icon.html icon="fa-solid fa-gamepad" %}Spiele & Simulationen {#spiele}
+## {% include icon.html icon="fa-solid fa-gamepad" %}Spiele {#spiele}
 
-Lernspiele und interaktive Simulationen – startbar direkt im Browser.
+Lernspiele – startbar direkt im Browser.
 
 {% include list.html component="card" data="materials" filter="category == 'spiele'" %}
 

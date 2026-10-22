@@ -2,14 +2,14 @@
 title: Institut für Didaktik der Physik
 subtitle: Universität Leipzig
 description: Offene Lehr- und Lernmaterialien, 3D-Druck-Dateien, Spiele und Simulationen für den Physikunterricht – frei verfügbar und offen lizenziert.
-header: images/background.jpg
-footer: images/background.jpg
+header: images/header.svg
+footer: images/header.svg
 proofer: false
 
 # site social media and other links
 links:
-  # email: physikdidaktik@uni-leipzig.de  # TODO: echte Adresse eintragen
-  github: Institute-of-Physics-Education-Leipzig
+  email: physikdidaktik@uni-leipzig.de  # TODO: echte Adresse eintragen
+  website: https://www.physes.uni-leipzig.de/dip
 
 ### jekyll settings
 

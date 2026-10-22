@@ -3,8 +3,7 @@
 
 # Offene Materialien für den Physikunterricht
 
-Das Institut für Didaktik der Physik der Universität Leipzig entwickelt Unterrichtsmaterialien, Experimente aus dem 3D-Drucker, Lernspiele und Software für Schule und Lehrkräftebildung.
-Hier finden Sie alles an einem Ort – frei verfügbar, offen lizenziert und zum Anpassen gedacht.
+Am Institut für Didaktik der Physik der Universität Leipzig werden immer wieder durch Abschlussarbeiten und Forschungsprojekte Unterrichtsmaterialien, Low-Cost-Experimente aus dem 3D-Drucker, Lernspiele und Software für Schule und Lehrkräftebildung entwickelt. Hier finden Sie alles gesammelt an einem Ort.
 
 {%
   include button.html
@@ -12,12 +11,6 @@ Hier finden Sie alles an einem Ort – frei verfügbar, offen lizenziert und zum
   text="Alle Materialien"
   icon="fa-solid fa-arrow-right"
   flip=true
-%}
-{%
-  include button.html
-  type="github"
-  text="Auf GitHub"
-  link="https://github.com/Institute-of-Physics-Education-Leipzig"
 %}
 
 {% include section.html %}
@@ -73,12 +66,12 @@ Experimentiermaterial zum Selberdrucken – mit Druckdateien, Stückliste und Au
 
 {% capture text %}
 
-Lernspiele und Simulationen, die direkt im Browser laufen – ohne Installation und ohne Anmeldung.
+Lernspiele, die direkt im Browser laufen – ohne Installation und ohne Anmeldung.
 
 {%
   include button.html
   link="materialien/#spiele"
-  text="Zu den Spielen & Simulationen"
+  text="Zu den Spielen"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -94,16 +87,38 @@ Lernspiele und Simulationen, die direkt im Browser laufen – ohne Installation 
   text=text
 %}
 
+{% capture text %}
+
+Software und Apps für Lehre und Forschung
+
+{%
+  include button.html
+  link="materialien/#werkzeuge"
+  text="Zu den Programmen und Apps"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/materialien/werkzeuge.svg"
+  link="materialien/#werkzeuge"
+  title="Software und Apps"
+  flip=true
+  text=text
+%}
+
 {% include section.html %}
 
-## Ausgewählt
+## Higlights
 
 {% include list.html component="card" data="materials" filter="featured == true" style="small" %}
 
 {% include section.html dark=true %}
 
-## Offen lizenziert
+## Lizenzen und Nutzungsrechte
 
-Unsere Materialien stehen unter freien Lizenzen – Texte und Medien meist unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de), Software unter Open-Source-Lizenzen wie MIT oder GPL.
-Sie dürfen sie verwenden, verändern und weitergeben, solange Sie die Urheber nennen.
-Die genaue Lizenz steht auf jeder Karte und im jeweiligen Repository.
+Alle Materialien sind kostenlos nutzbar. Lizenzen können je nach Projekt unterschiedlich ausfallen und sind auf jeder Karte und im jeweiligen Repository angegeben.

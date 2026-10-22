@@ -6,7 +6,7 @@ This repository contains two kinds of material under different licenses:
 |---|---|
 | **Website code**: everything in `_includes/`, `_layouts/`, `_plugins/`, `_scripts/`, `_styles/`, `_cite/`, `.github/`, `.docker/` and the build configuration (`_config.yaml`, `Gemfile`, `Gemfile.lock`) | BSD 3-Clause License, see [Part 1](#part-1-website-code--bsd-3-clause-license) |
 | **Content**: page texts (`*.md`), the materials catalogue and other data in `_data/`, team profiles, news posts and the institute's own images, unless marked otherwise | Creative Commons Attribution 4.0 International (CC BY 4.0), see [Part 2](#part-2-content--cc-by-40) |
-| **Placeholder images** from the original template (`images/background.jpg`, `images/photo.jpg`, `images/share.jpg`, `images/icon.png`, `images/logo.svg`) | Not covered by this license, see [Part 3](#part-3-exceptions) |
+| **Placeholder images** from the original template (`images/photo.jpg`, `images/share.jpg`, `images/icon.png`, `images/logo.svg`) | Not covered by this license, see [Part 3](#part-3-exceptions) |
 
 The materials linked from this website (teaching materials, 3D print files, games, software) live in their own repositories and are licensed there. The license shown on each card on the website and in each repository's `LICENSE` file applies.
 
@@ -69,4 +69,4 @@ Suggested attribution:
 
 - **Third-party logos and trademarks** (e.g. the logo of Universität Leipzig, GitHub, Creative Commons) are not covered by this license.
 - **Photos of people** may only be reused with the consent of the persons shown.
-- **Fonts and icons** loaded at runtime (Barlow and Roboto Mono via Google Fonts, Font Awesome) remain under their own licenses (SIL Open Font License, Font Awesome Free License).
+- **Fonts and icons** loaded at runtime (Inter and JetBrains Mono via Google Fonts, Font Awesome) remain under their own licenses (SIL Open Font License, Font Awesome Free License).
