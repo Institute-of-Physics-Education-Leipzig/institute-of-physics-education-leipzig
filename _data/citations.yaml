@@ -1,1 +1,15 @@
-[]
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.1088/1361-6552/ad353d
+  title: "A new teaching-learning sequence to promote secondary school students\u2019\
+    \ learning of quantum physics using Dirac notation"
+  authors:
+  - Fabian Hennig
+  - "Krist\xF3f T\xF3th"
+  - "Moritz F\xF6rster"
+  - Philipp Bitzenbauer
+  publisher: Physics Education
+  date: '2024-04-26'
+  link: https://doi.org/g8747n
+  plugin: sources.py
+  file: sources.yaml
