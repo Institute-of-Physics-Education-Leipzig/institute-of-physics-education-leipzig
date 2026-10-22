@@ -44,7 +44,9 @@
       {% assign license = site.data.licenses[include.license] %}
       <a
         class="card-license"
-        href="{{ license.link | default: "#" }}"
+        {% if license.link %}
+          href="{{ license.link }}"
+        {% endif %}
         data-tooltip="Lizenz: {{ license.name | default: include.license | xml_escape }}"
       >
         {% include icon.html icon=license.icon %}
