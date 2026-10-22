@@ -13,3 +13,29 @@
   link: https://doi.org/g8747n
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.5281/zenodo.21892692
+  title: 'Quantum AR Lab: An augmented reality quantum optics laboratory'
+  authors:
+  - Judith Maria Schmid
+  - Malte S. Ubben
+  - Philipp Bitzenbauer
+  publisher: Zenodo
+  date: '2026-08-11'
+  link: https://doi.org/hcpjcn
+  type: data
+  description: Daten der Usability-Studie zu Quantum AR Lab (UEQ, TAM, HARUS) zu mehreren
+    Entwicklungszeitpunkten.
+  image: images/materialien/quantum-ar-lab-card.jpg
+  buttons:
+  - type: data
+    text: Datensatz auf Zenodo
+    link: https://zenodo.org/records/21892692
+  - icon: fa-solid fa-mobile-screen
+    text: Zur App
+    link: materialien/quantum-ar-lab
+  tags:
+  - quantum-ar-lab
+  - quantenphysik
+  - augmented-reality
+  plugin: sources.py
+  file: sources.yaml
