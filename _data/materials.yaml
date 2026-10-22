@@ -1,0 +1,84 @@
+# Katalog aller Materialien – jeder Eintrag wird als Karte auf /materialien/ angezeigt.
+#
+# Felder:
+#   title        Name des Materials (Pflicht)
+#   subtitle     Zielgruppe, z. B. "Sek I · Klasse 7–8" oder "Lehramtsstudium"
+#   category     oer | 3d-druck | spiele | werkzeuge   (bestimmt den Abschnitt)
+#   featured     true = zusätzlich auf der Startseite zeigen
+#   image        Vorschaubild (3:2), z. B. images/materialien/mein-projekt.jpg
+#   link         wohin Bild und Titel verlinken (meist Demo oder Repository)
+#   description  1–3 Sätze, Markdown erlaubt
+#   license      Schlüssel aus _data/licenses.yaml, z. B. CC-BY-4.0, MIT
+#   repo         owner/name auf GitHub – lädt die GitHub-Topics automatisch als Schlagwörter
+#   buttons      Liste mit type (source, demo, download, print, printables,
+#                worksheet, docs, doi – siehe _data/types.yaml) und link
+#   tags         Schlagwörter für Suche und Filter (Themengebiet, Schulstufe, …)
+#
+# Die Einträge unten sind BEISPIELE. Ersetzen oder löschen, sobald echte Repositories existieren.
+
+- title: Beispiel – Arbeitsblätter Optik
+  subtitle: Sek I · Klasse 7–8
+  category: oer
+  featured: true
+  image: images/materialien/oer.svg
+  link: https://github.com/Institute-of-Physics-Education-Leipzig
+  description: Platzhalter für eine Sammlung von Arbeitsblättern und Stundenentwürfen, z. B. zur Lichtausbreitung und Reflexion.
+  license: CC-BY-4.0
+  buttons:
+    - type: source
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+    - type: download
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+  tags:
+    - optik
+    - sek-i
+
+- title: Beispiel – Modulares Optik-Set
+  subtitle: Sek I & II · Schülerexperiment
+  category: 3d-druck
+  featured: true
+  image: images/materialien/3d-druck.svg
+  link: https://github.com/Institute-of-Physics-Education-Leipzig
+  description: Platzhalter für druckbares Experimentiermaterial – mit STL-Dateien, Stückliste und Aufbauanleitung im Repository.
+  license: CC-BY-SA-4.0
+  buttons:
+    - type: print
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+    - type: docs
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+  tags:
+    - optik
+    - experiment
+
+- title: Beispiel – Lernspiel Stromkreise
+  subtitle: Sek I · Klasse 8–9
+  category: spiele
+  featured: true
+  image: images/materialien/spiele.svg
+  link: https://github.com/Institute-of-Physics-Education-Leipzig
+  description: Platzhalter für ein Browser-Spiel, das direkt über GitHub Pages startet – ohne Installation, ohne Anmeldung.
+  license: MIT
+  buttons:
+    - type: demo
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+    - type: source
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+  tags:
+    - elektrizitätslehre
+    - sek-i
+
+- title: Beispiel – Messwerterfassung mit Mikrocontroller
+  subtitle: Sek II · Lehramtsstudium
+  category: werkzeuge
+  image: images/materialien/werkzeuge.svg
+  link: https://github.com/Institute-of-Physics-Education-Leipzig
+  description: Platzhalter für Software, Skripte oder Hardware-Projekte, die im Unterricht oder in der Lehrkräftebildung eingesetzt werden.
+  license: GPL-3.0
+  buttons:
+    - type: source
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+    - type: docs
+      link: https://github.com/Institute-of-Physics-Education-Leipzig
+  tags:
+    - messen
+    - sek-ii
