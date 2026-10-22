@@ -1,5 +1,5 @@
 ---
-name: Vorname Nachname
+name: Max Mustermann
 image: images/photo.jpg
 role: professor
 description: Professur für Didaktik der Physik

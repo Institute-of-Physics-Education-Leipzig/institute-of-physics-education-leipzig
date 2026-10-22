@@ -17,108 +17,43 @@ Am Institut für Didaktik der Physik der Universität Leipzig werden immer wiede
 
 ## Was wir teilen
 
-{% capture text %}
-
-Arbeitsblätter, Stundenentwürfe und Lernumgebungen – erprobt im Unterricht und in der Lehrkräftebildung.
-
+<div class="tiles">
 {%
-  include button.html
-  link="materialien/#oer"
-  text="Zu den Unterrichtsmaterialien"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/materialien/oer.svg"
-  link="materialien/#oer"
+  include tile.html
+  icon="fa-solid fa-file-lines"
   title="Unterrichtsmaterialien"
-  text=text
+  text="Arbeitsblätter, Stundenentwürfe und Lernumgebungen – erprobt im Unterricht und in der Lehrkräftebildung."
+  link="materialien/#oer"
 %}
-
-{% capture text %}
-
-Experimentiermaterial zum Selberdrucken – mit Druckdateien, Stückliste und Aufbauanleitung.
-
 {%
-  include button.html
-  link="materialien/#druck"
-  text="Zu den 3D-Druck-Projekten"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/materialien/3d-druck.svg"
-  link="materialien/#druck"
+  include tile.html
+  icon="fa-solid fa-cube"
   title="3D-Druck"
-  flip=true
-  text=text
+  text="Experimentiermaterial zum Selberdrucken – mit Druckdateien, Stückliste und Aufbauanleitung."
+  link="materialien/#druck"
 %}
-
-{% capture text %}
-
-Lernspiele, die direkt im Browser laufen – ohne Installation und ohne Anmeldung.
-
 {%
-  include button.html
+  include tile.html
+  icon="fa-solid fa-gamepad"
+  title="Spiele"
+  text="Lernspiele, die direkt im Browser laufen – ohne Installation und ohne Anmeldung."
   link="materialien/#spiele"
-  text="Zu den Spielen"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
 %}
-
-{% endcapture %}
-
 {%
-  include feature.html
-  image="images/materialien/spiele.svg"
-  link="materialien/#spiele"
-  title="Spiele & Simulationen"
-  text=text
-%}
-
-{% capture text %}
-
-Software und Apps für Lehre und Forschung
-
-{%
-  include button.html
-  link="materialien/#werkzeuge"
-  text="Zu den Programmen und Apps"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/materialien/werkzeuge.svg"
-  link="materialien/#werkzeuge"
+  include tile.html
+  icon="fa-solid fa-code"
   title="Software und Apps"
-  flip=true
-  text=text
+  text="Software und Apps für Lehre und Forschung."
+  link="materialien/#werkzeuge"
 %}
+</div>
 
 {% include section.html %}
 
-## Higlights
+## Highlights
 
 {% include list.html component="card" data="materials" filter="featured == true" style="small" %}
 
-{% include section.html dark=true %}
+## Neuigkeiten
 
-## Lizenzen und Nutzungsrechte
-
-Alle Materialien sind kostenlos nutzbar. Lizenzen können je nach Projekt unterschiedlich ausfallen und sind auf jeder Karte und im jeweiligen Repository angegeben.
+{% include list.html data="posts" component="post-excerpt" filter="featured == true" %}

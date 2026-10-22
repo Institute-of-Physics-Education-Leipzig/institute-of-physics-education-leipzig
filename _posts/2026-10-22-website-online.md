@@ -1,8 +1,9 @@
 ---
 title: Unsere Material-Website ist online
-author: vorname-nachname
+author: max-mustermann
 tags:
-  - institut
+  - Institut
+featured: true
 ---
 
 Ab sofort sammeln wir alle offenen Materialien des Instituts an einem Ort: Unterrichtsmaterialien, 3D-Druck-Experimente, Spiele und Software.

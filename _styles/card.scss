@@ -41,6 +41,13 @@
   margin: 0 !important;
 }
 
+// no justify in narrow cards, it leaves big gaps between words
+.card-text p {
+  text-align: center;
+  hyphens: auto;
+  line-height: var(--compact);
+}
+
 .card-title {
   font-family: var(--heading);
   font-weight: var(--semi-bold);

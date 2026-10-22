@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: Institut für Didaktik der Physik
 subtitle: Universität Leipzig
-description: Offene Lehr- und Lernmaterialien, 3D-Druck-Dateien, Spiele und Simulationen für den Physikunterricht – frei verfügbar und offen lizenziert.
+description: Offene Lehr- und Lernmaterialien, 3D-Druck-Dateien, Spiele und Software für den Physikunterricht.
 header: images/header.svg
 footer: images/header.svg
 proofer: false

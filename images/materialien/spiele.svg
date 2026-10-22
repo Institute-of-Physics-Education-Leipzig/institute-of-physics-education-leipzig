@@ -2,5 +2,5 @@
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d28d9"/><stop offset="1" stop-color="#c084fc"/></linearGradient></defs>
   <rect width="600" height="400" fill="url(#g)"/>
   <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"><rect x="170" y="120" width="260" height="150" rx="70"/><path d="M235 170v50M210 195h50"/><circle cx="355" cy="180" r="8"/><circle cx="385" cy="210" r="8"/></g>
-  <text x="300" y="350" text-anchor="middle" font-family="Barlow, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Spiele &amp; Simulationen</text>
+  <text x="300" y="350" text-anchor="middle" font-family="Barlow, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Spiele</text>
 </svg>
