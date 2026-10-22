@@ -19,7 +19,7 @@
 - title: Beispiel – Arbeitsblätter Optik
   subtitle: Sek I · Klasse 7–8
   category: oer
-  featured: true
+  featured: false
   image: images/materialien/oer.svg
   link: https://github.com/Institute-of-Physics-Education-Leipzig
   description: Platzhalter für eine Sammlung von Arbeitsblättern und Stundenentwürfen, z. B. zur Lichtausbreitung und Reflexion.
@@ -36,7 +36,7 @@
 - title: Beispiel – Modulares Optik-Set
   subtitle: Sek I & II · Schülerexperiment
   category: 3d-druck
-  featured: true
+  featured: false
   image: images/materialien/3d-druck.svg
   link: https://github.com/Institute-of-Physics-Education-Leipzig
   description: Platzhalter für druckbares Experimentiermaterial – mit STL-Dateien, Stückliste und Aufbauanleitung im Repository.
@@ -53,7 +53,7 @@
 - title: Beispiel – Lernspiel Stromkreise
   subtitle: Sek I · Klasse 8–9
   category: spiele
-  featured: true
+  featured: false
   image: images/materialien/spiele.svg
   link: https://github.com/Institute-of-Physics-Education-Leipzig
   description: Platzhalter für ein Browser-Spiel, das direkt über GitHub Pages startet – ohne Installation, ohne Anmeldung.
@@ -82,3 +82,27 @@
   tags:
     - messen
     - sek-ii
+
+# Sonderfall: im Auftrag der Professur entwickelt, Umsetzung und Rechte bei einer externen Firma.
+# Kostenlos in den App-Stores, aber nicht offen lizenziert – daher kein Repository und Lizenz "Kostenlos".
+- title: Quantum AR Lab
+  subtitle: Einzelphotonenexperimente in Augmented Reality
+  category: werkzeuge
+  featured: true
+  image: images/materialien/quantum-ar-lab-card.jpg
+  link: materialien/quantum-ar-lab
+  description: Sechs Experimente der Quantenoptik in Augmented Reality – von Koinzidenz bis Verschränkung, mit realen Messdaten. Entwickelt von der Heartucate GmbH im Auftrag der Professur für Physikdidaktik.
+  license: Kostenlos
+  buttons:
+    - type: app-store
+      link: https://apps.apple.com/de/app/quantum-ar-lab/id6758349864
+    - type: google-play
+      link: https://play.google.com/store/apps/details?id=com.Heartucate.QuantumARLab
+    - type: external
+      text: Projektseite
+      link: https://heartucate.eu/kooperation-auftraege/quantumlab/
+  tags:
+    - quantenphysik
+    - augmented-reality
+    - experimente
+    - ar

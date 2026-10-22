@@ -1,1 +1,18 @@
 - id: doi:10.1088/1361-6552/ad353d
+
+# Quantum AR Lab – the tag "quantum-ar-lab" shows this entry on materialien/quantum-ar-lab/
+- id: doi:10.5281/zenodo.21892692
+  type: data
+  description: Daten der Usability-Studie zu Quantum AR Lab (UEQ, TAM, HARUS) zu mehreren Entwicklungszeitpunkten.
+  image: images/materialien/quantum-ar-lab-card.jpg
+  buttons:
+    - type: data
+      text: Datensatz auf Zenodo
+      link: https://zenodo.org/records/21892692
+    - icon: fa-solid fa-mobile-screen
+      text: Zur App
+      link: materialien/quantum-ar-lab
+  tags:
+    - quantum-ar-lab
+    - quantenphysik
+    - augmented-reality

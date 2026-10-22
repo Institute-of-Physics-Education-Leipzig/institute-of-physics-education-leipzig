@@ -29,3 +29,8 @@ CERN-OHL-S-2.0:
   name: CERN Open Hardware Licence v2 – Strongly Reciprocal
   icon: fa-solid fa-scale-balanced
   link: https://ohwr.org/cern_ohl_s_v2.txt
+
+# not an open licence: free to use, but produced and owned by a third party
+Kostenlos:
+  name: Kostenlos nutzbar – keine offene Lizenz (Rechte beim Hersteller)
+  icon: fa-solid fa-gift

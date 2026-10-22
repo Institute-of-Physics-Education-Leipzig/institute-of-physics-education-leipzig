@@ -252,3 +252,13 @@ doi:
   icon: fa-solid fa-fingerprint
   text: DOI
   tooltip: Zitierbare Version (Zenodo)
+
+app-store:
+  icon: fa-brands fa-app-store-ios
+  text: App Store
+  tooltip: Kostenlos im App Store (iPhone & iPad)
+
+google-play:
+  icon: fa-brands fa-google-play
+  text: Google Play
+  tooltip: Kostenlos bei Google Play (Android)
