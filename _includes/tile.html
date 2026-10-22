@@ -1,0 +1,9 @@
+{{ " " }}
+<a class="tile" href="{{ include.link | relative_url | uri_escape }}">
+  <span class="tile-icon">{% include icon.html icon=include.icon %}</span>
+  <span class="tile-title">
+    {{ include.title }}
+    {% include icon.html icon="fa-solid fa-arrow-right" %}
+  </span>
+  <span class="tile-text">{{ include.text }}</span>
+</a>
