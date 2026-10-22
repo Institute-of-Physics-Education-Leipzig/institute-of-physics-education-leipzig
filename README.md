@@ -6,7 +6,7 @@
 
 Zentrale Website für alle offenen Materialien des Instituts: Unterrichtsmaterialien (OER), 3D-Druck-Dateien, Spiele, Simulationen und Software.
 
-Visit **[website URL](#)**
+Visit **[institute-of-physics-education-leipzig.github.io](https://institute-of-physics-education-leipzig.github.io)**
 
 ## Material hinzufügen
 
