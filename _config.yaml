@@ -61,6 +61,8 @@ sass:
 include:
   - _styles
   - _scripts
+  # stops github pages from running its own jekyll again on the built site
+  - .nojekyll
 
 # force jekyll to exclude certain files/folders
 exclude:
